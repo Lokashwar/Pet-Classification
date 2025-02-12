@@ -1,5 +1,5 @@
 from PetClassification.config import ConfigurationManager
-from PetClassification.components import PrepareBaseModel
+from PetClassification.components.prepare_base_model import PrepareBaseModel
 from PetClassification import logger
 
 STAGE_NAME = "Prepare base model"

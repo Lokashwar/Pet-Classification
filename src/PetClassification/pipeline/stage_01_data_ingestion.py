@@ -1,5 +1,5 @@
 from PetClassification.config import ConfigurationManager
-from PetClassification.components import DataIngestion
+from PetClassification.components.data_ingestion import DataIngestion
 from PetClassification import logger
 
 STAGE_NAME = "Data Ingestion stage"

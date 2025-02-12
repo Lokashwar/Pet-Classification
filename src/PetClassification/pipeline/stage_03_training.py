@@ -1,6 +1,7 @@
-from deepClassifier.config import ConfigurationManager
-from deepClassifier.components import PrepareCallback, Training
-from deepClassifier import logger
+from PetClassification.config import ConfigurationManager
+from PetClassification.components.prepare_callback import PrepareCallback
+from PetClassification.components.training import Training
+from PetClassification import logger
 
 STAGE_NAME = "Training"
 
