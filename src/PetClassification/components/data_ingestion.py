@@ -1,9 +1,9 @@
 import os
 import urllib.request as request
 from zipfile import ZipFile
-from deepClassifier.entity import DataIngestionConfig
-from deepClassifier import logger
-from deepClassifier.utils import get_size
+from PetClassification.entity import DataIngestionConfig
+from PetClassification import logger
+from PetClassification.utils import get_size
 from tqdm import tqdm
 from pathlib import Path
 

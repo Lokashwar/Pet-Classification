@@ -1,5 +1,5 @@
 from pathlib import Path
-from deepClassifier.entity import PrepareBaseModelConfig
+from PetClassification.entity import PrepareBaseModelConfig
 import tensorflow as tf
 
 class PrepareBaseModel:

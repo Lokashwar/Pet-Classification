@@ -1,6 +1,6 @@
-from deepClassifier.constants import CONFIG_FILE_PATH, PARAMS_FILE_PATH
-from deepClassifier.utils import read_yaml, create_directories
-from deepClassifier.entity import (
+from PetClassification.constants import CONFIG_FILE_PATH, PARAMS_FILE_PATH
+from PetClassification.utils import read_yaml, create_directories
+from PetClassification.entity import (
     DataIngestionConfig, 
     PrepareBaseModelConfig, 
     PrepareCallbacksConfig,

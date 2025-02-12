@@ -1,5 +1,5 @@
 import os
-from deepClassifier.entity import PrepareCallbacksConfig
+from PetClassification.entity import PrepareCallbacksConfig
 import tensorflow as tf
 import time
 

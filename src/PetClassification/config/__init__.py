@@ -1,1 +1,1 @@
-from deepClassifier.config.configuration import ConfigurationManager
+from PetClassification.config.configuration import ConfigurationManager
